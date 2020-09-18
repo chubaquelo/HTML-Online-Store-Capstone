@@ -1,0 +1,37 @@
+/* GLOBAL CLASSES */
+
+/* GLOBAL FONTS */
+
+.gotham-font-bold {
+    font-family: "Gotham Bold";
+}
+
+.gotham-font {
+    font-family: "Gotham Rounded Light";
+}
+
+.helvetica-font-l {
+    font-family: "Helvetica Neue Light";
+}
+
+.helvetica-font-m {
+    font-family: "Helvetica Neue Medium";
+}
+
+.helvetica-font-b {
+    font-family: "Helvetica Neue Bold";
+}
+
+/* GLOBAL COLORS */
+
+.main-color-red {
+    color: #D35266;
+}
+
+.main-color-gray {
+    color: #888888;
+}
+
+.main-color-black{ 
+    color: #383838;
+}
