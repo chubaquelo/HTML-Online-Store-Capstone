@@ -1,5 +1,10 @@
 /* GLOBAL CLASSES */
 
+header {
+    background: url("/img/bg.png");
+    height: 60px;
+}
+
 /* GLOBAL FONTS */
 
 .gotham-font-bold {
@@ -24,8 +29,12 @@
 
 /* GLOBAL COLORS */
 
-.main-color-red {
+.main-color-pink {
     color: #D35266;
+}
+
+.bg-color-pink {
+    background-color: #D35266;
 }
 
 .main-color-gray {
