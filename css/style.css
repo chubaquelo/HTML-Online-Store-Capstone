@@ -3,6 +3,7 @@
 header {
     background: url("/img/bg.png");
     height: 60px;
+    min-width: 360px;
 }
 
 /* GLOBAL FONTS */
@@ -43,4 +44,32 @@ header {
 
 .main-color-black{ 
     color: #383838;
+}
+
+/* GLOBAL OTHER CLASSES */
+
+.cpointer {
+    cursor: pointer;
+}
+
+.bi-envelope-fill {
+    min-width: 1em;
+    min-height: 1em;
+}
+
+.mobile-menu-icon {
+    min-width: 3em;
+    min-height: 3em;
+}
+
+/* HEADER CLASSES */
+
+.main-nav-a:hover {
+    text-decoration: none;
+    color: #D35266;
+}
+
+.user-img-img {
+    height: 50px;
+    width: 50px;
 }
