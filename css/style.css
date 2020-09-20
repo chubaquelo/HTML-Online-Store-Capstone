@@ -73,3 +73,42 @@ header {
     height: 50px;
     width: 50px;
 }
+
+/* SEARCH HERO CLASSES */
+
+.search-hero {
+    min-height: 300px;
+    padding: 4em 10em;
+    background-image: url(/img/online-store-bg.fw.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position-x: 1em;
+    background-position-y: 1em;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 360px) {
+    .search-btn {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .search-hero {
+        padding: 4em 10em;
+    }
+
+    .search-input {
+        width: 25%;
+        min-width: 200px;
+    }
+    
+    .department-selector {
+        min-width: 150px;
+        width: 20%;
+    }
+
+    .search-btn {
+        width: 100px;
+        margin-left: 5px;
+    }
+}
