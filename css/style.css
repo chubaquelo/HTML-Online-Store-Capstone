@@ -142,6 +142,28 @@ header {
     background-color: #cecece;
 }
 
+/* FOOTER CLASSES */
+
+.footer-nav-title {
+    border-bottom: 2px solid #d35266;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+.footer-logo {
+    filter: invert(100%);
+}
+
+.footer-description {
+    line-height: 1.5em;
+}
+
+.footer-btn {
+    width: 120px;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 360px) {
     .search-btn {
