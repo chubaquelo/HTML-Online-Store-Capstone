@@ -164,6 +164,10 @@ header {
     width: 120px;
 }
 
+.footer-social-icons {
+    fill: #5c5c5c;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 360px) {
     .search-btn {
