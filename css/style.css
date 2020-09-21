@@ -154,7 +154,7 @@ header {
 
 .product-description-txt {
   line-height: 1.2em;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .results-single-product-container:hover {
@@ -180,6 +180,11 @@ header {
 .pagination-btn:hover {
   background-color: #d35266;
   color: #fff;
+}
+
+.filter-form {
+  position: sticky;
+  top: 85px;
 }
 
 /* FOOTER CLASSES */
