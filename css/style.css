@@ -150,6 +150,38 @@ header {
   background-color: #cecece;
 }
 
+/* CLASSES FOR SEARCH RESULTS PAGE */
+
+.product-description-txt {
+  line-height: 1.2em;
+  font-size: .9em;
+}
+
+.results-single-product-container:hover {
+  background-color: #fff;
+  transition: 1s;
+}
+
+.results-single-product-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.results-arrow-left {
+  right: 2.5em;
+  bottom: 1px;
+}
+
+.results-arrow-right {
+  right: 1em;
+  bottom: 1px;
+}
+
+.pagination-btn:hover {
+  background-color: #d35266;
+  color: #fff;
+}
+
 /* FOOTER CLASSES */
 
 .footer-nav-title {
