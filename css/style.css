@@ -1,7 +1,7 @@
 /* GLOBAL CLASSES */
 
 header {
-  background: url("/img/bg.png");
+  background: url("./img/bg.png");
   height: 60px;
   position: sticky;
   top: 0;
@@ -112,7 +112,7 @@ header {
 .search-hero {
   min-height: 300px;
   padding: 4em 10em;
-  background-image: url(/img/online-store-bg.fw.png);
+  background-image: url(./img/online-store-bg.fw.png);
   background-repeat: no-repeat;
   background-size: 25%;
   background-position-x: 1em;
@@ -121,7 +121,7 @@ header {
 
 .search-hero-results {
   padding: 0 2em;
-  background-image: url(/img/online-store-bg.fw.png);
+  background-image: url(./img/online-store-bg.fw.png);
   background-repeat: no-repeat;
   background-size: 25%;
   background-position-x: 980px;
