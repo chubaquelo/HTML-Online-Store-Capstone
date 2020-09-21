@@ -21,7 +21,7 @@
     <header class="container-fluid h-5 d-flex align-items-center">
       <!-- ROW IS DIVIDED IN 3 COLUMNS FOR THE HEADER: 2 / 8 / 2 -->
       <div class="row w-100">
-        <div class="col-7 col-md-3 col-lg-2 d-flex align-items-center">
+        <div class="col-7 col-sm-6 col-md-3 col-lg-2 d-flex align-items-center">
           <div class="logo pl-2 pl-md-4 cpointer">
             <img src="./img/logo.png" alt="Online Store" />
           </div>
@@ -71,11 +71,7 @@
                     d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"
                   />
                 </svg>
-                <a
-                  class="main-nav-a main-color-gray"
-                  href="./search-results.html"
-                  >COLLECTIONS</a
-                >
+                <a class="main-nav-a main-color-gray" href="#">COLLECTIONS</a>
               </li>
               <li
                 class="d-none d-lg-inline-block mr-4 font-weight-bold text-nowrap"
@@ -93,9 +89,7 @@
                     d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"
                   />
                 </svg>
-                <a
-                  class="main-nav-a main-color-gray text-nowrap"
-                  href="./search-results.html"
+                <a class="main-nav-a main-color-gray text-nowrap" href="#"
                   >PURCHASE LIST</a
                 >
               </li>
@@ -110,11 +104,12 @@
         <div
           class="col-5 col-md-4 col-lg-3 col-xl-2 d-flex align-items-center main-color-gray pl-md-4 pr-0"
         >
+        <div class="d-none d-sm-block d-md-none w-75"></div>
           <svg
             width="2em"
             height="2em"
             viewBox="0 0 16 16"
-            class="bi bi-envelope-fill cpointer ml-auto pr-1"
+            class="bi bi-envelope-fill d-none d-sm-block cpointer ml-auto pr-1 ml-sm-4 ml-md-auto"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -129,15 +124,16 @@
             >John Doe</span
           >
           <img
-            class="user-img-img rounded-circle cpointer d-block ml-3"
+            class="user-img-img rounded-circle cpointer d-none d-sm-block ml-3"
             src="./img/user-profile.jpg"
             alt="User profile img"
           />
+          <div class="d-sm-none w-75"></div>
           <svg
             width="3em"
             height="3em"
             viewBox="0 0 16 16"
-            class="mobile-menu-icon bi bi-list cpointer ml-2 d-lg-none"
+            class="mobile-menu-icon bi bi-list cpointer ml-4 d-lg-none"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -927,7 +923,7 @@
             necessitatibus explicabo minima dolores quam!
           </p>
         </div>
-        <nav class="col-12 text-center text-md-left col-md-6 col-xl-2">
+        <nav class="col-6 col-sm-12 text-center text-md-left col-md-6 col-xl-2 mx-2 mx-sm-auto">
           <h6 class="footer-nav-title main-color-pink font-weight-bold pb-1">
             NAVIGATION
           </h6>
@@ -963,23 +959,23 @@
             <li class="cpointer">More</li>
           </ul>
         </nav>
-        <div class="col-12 col-xl-3 text-center mt-4 mt-xl-0">
+        <div class="col-4 col-sm-12 col-xl-3 text-center w-100 mt-sm-4 mt-xl-0 mx-1 mx-sm-auto">
           <div
-            class="my-3 w-25 d-inline-block d-xl-flex text-center mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
+            class="mb-1 my-sm-3 w-25 d-sm-inline-block d-xl-flex text-center mx-sm-auto mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
           >
-            <span class="main-color-pink font-weight-bold mr-3">COUNTRY</span>
+            <span class="main-color-pink font-weight-bold mr-3 pl-3 pl-sm-0">COUNTRY</span>
             <button type="submit" class="footer-btn btn border">Switzerland</button>
           </div>
           <div
-            class="my-3 w-25 d-inline-block d-xl-flex text-center mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
+            class="mb-1 my-sm-3 w-25 d-sm-inline-block d-xl-flex text-center mx-sm-auto mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
           >
-            <span class="main-color-pink font-weight-bold mr-3">LANGUAGE</span>
+            <span class="main-color-pink font-weight-bold mr-3 pl-3 pl-sm-0">LANGUAGE</span>
             <button type="submit" class="footer-btn btn border">English</button>
           </div>
           <div
-            class="my-3 w-25 d-inline-block d-xl-flex text-center mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
+            class="mb-1 my-sm-3 w-25 d-sm-inline-block d-xl-flex text-center mx-sm-auto mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
           >
-            <span class="main-color-pink font-weight-bold mr-3">CURRENCY</span>
+            <span class="main-color-pink font-weight-bold mr-3 pl-3 pl-sm-0">CURRENCY</span>
             <button type="submit" class="footer-btn btn border text-nowrap">US Dollar</button>
           </div>
         </div>

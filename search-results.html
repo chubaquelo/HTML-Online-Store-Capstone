@@ -21,7 +21,7 @@
     <header class="container-fluid h-5 d-flex align-items-center">
       <!-- ROW IS DIVIDED IN 3 COLUMNS FOR THE HEADER: 2 / 8 / 2 -->
       <div class="row w-100">
-        <div class="col-7 col-md-3 col-lg-2 d-flex align-items-center">
+        <div class="col-7 col-sm-6 col-md-3 col-lg-2 d-flex align-items-center">
           <div class="logo pl-2 pl-md-4 cpointer">
             <img src="./img/logo.png" alt="Online Store" />
           </div>
@@ -104,11 +104,12 @@
         <div
           class="col-5 col-md-4 col-lg-3 col-xl-2 d-flex align-items-center main-color-gray pl-md-4 pr-0"
         >
+        <div class="d-none d-sm-block d-md-none w-75"></div>
           <svg
             width="2em"
             height="2em"
             viewBox="0 0 16 16"
-            class="bi bi-envelope-fill cpointer ml-auto pr-1"
+            class="bi bi-envelope-fill d-none d-sm-block cpointer ml-auto pr-1 ml-sm-4 ml-md-auto"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -123,15 +124,16 @@
             >John Doe</span
           >
           <img
-            class="user-img-img rounded-circle cpointer d-block ml-3"
+            class="user-img-img rounded-circle cpointer d-none d-sm-block ml-3"
             src="./img/user-profile.jpg"
             alt="User profile img"
           />
+          <div class="d-sm-none w-75"></div>
           <svg
             width="3em"
             height="3em"
             viewBox="0 0 16 16"
-            class="mobile-menu-icon bi bi-list cpointer ml-2 d-lg-none"
+            class="mobile-menu-icon bi bi-list cpointer ml-4 d-lg-none"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -145,7 +147,7 @@
     </header>
 
     <section class="search-hero-results bg-color-pink text-white py-3">
-      <h2 class="font-weight-bold">ONLINE STORE</h2>
+      <h1 class="font-weight-bold">ONLINE STORE</h1>
       <p class="">Buying and Selling couldn't be Simpler than this!</p>
 
       <form
@@ -691,130 +693,130 @@
     </main>
 
     <footer class="container pt-3 pb-5">
-      <div class="row pb-4">
-        <div class="col-xl-4 text-center mt-2">
-          <img class="footer-logo" src="./img/logo.png" alt="Logo" />
-          <p class="footer-description text-justify main-color-black mt-3 mr-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-            commodi! Repellendus facere at officia rerum ad doloribus impedit
-            inventore saepe consequuntur non beatae excepturi, adipisci
-            necessitatibus explicabo minima dolores quam!
-          </p>
-        </div>
-        <nav class="col-12 text-center text-md-left col-md-6 col-xl-2">
-          <h6 class="footer-nav-title main-color-pink font-weight-bold pb-1">
-            NAVIGATION
-          </h6>
-          <ul class="p-0 m-0 footer-links main-color-gray">
-            <li class="cpointer">Home</li>
-            <li class="cpointer">Sign In</li>
-            <li class="cpointer">Sign Up</li>
-            <li class="cpointer">Terms & Conditions</li>
-            <li class="cpointer">FAQ</li>
-            <li class="cpointer">Help</li>
-          </ul>
-        </nav>
-        <nav class="d-none d-md-block col-12 col-md-6 col-xl-3">
-          <h6
-            class="footer-nav-title main-color-pink font-weight-bold pb-1 text-center"
-          >
-            CATEGORIES
-          </h6>
-          <ul class="p-0 m-0 footer-links main-color-gray float-left">
-            <li class="cpointer">Cellphones</li>
-            <li class="cpointer">Desktop PC</li>
-            <li class="cpointer">Cameras</li>
-            <li class="cpointer">Automotives</li>
-            <li class="cpointer">Fashion</li>
-            <li class="cpointer">More</li>
-          </ul>
-          <ul class="p-0 m-0 footer-links main-color-gray float-right">
-            <li class="cpointer">Cellphones</li>
-            <li class="cpointer">Desktop PC</li>
-            <li class="cpointer">Cameras</li>
-            <li class="cpointer">Automotives</li>
-            <li class="cpointer">Fashion</li>
-            <li class="cpointer">More</li>
-          </ul>
-        </nav>
-        <div class="col-12 col-xl-3 text-center mt-4 mt-xl-0">
-          <div
-            class="my-3 w-25 d-inline-block d-xl-flex text-center mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
-          >
-            <span class="main-color-pink font-weight-bold mr-3">COUNTRY</span>
-            <button type="submit" class="footer-btn btn border">Switzerland</button>
+        <div class="row pb-4">
+          <div class="col-xl-4 text-center mt-2">
+            <img class="footer-logo" src="./img/logo.png" alt="Logo" />
+            <p class="footer-description text-justify main-color-black mt-3 mr-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+              commodi! Repellendus facere at officia rerum ad doloribus impedit
+              inventore saepe consequuntur non beatae excepturi, adipisci
+              necessitatibus explicabo minima dolores quam!
+            </p>
           </div>
-          <div
-            class="my-3 w-25 d-inline-block d-xl-flex text-center mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
-          >
-            <span class="main-color-pink font-weight-bold mr-3">LANGUAGE</span>
-            <button type="submit" class="footer-btn btn border">English</button>
-          </div>
-          <div
-            class="my-3 w-25 d-inline-block d-xl-flex text-center mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
-          >
-            <span class="main-color-pink font-weight-bold mr-3">CURRENCY</span>
-            <button type="submit" class="footer-btn btn border text-nowrap">US Dollar</button>
-          </div>
-        </div>
-      </div>
-      <div class="row border-top pt-2">
-        <div class="copyright col-12 col-lg-9 pt-1 text-center text-lg-left">
-          <span class="small main-color-black"
-            >Copyright 2020. Design copied from
-            <a
-              href="https://www.behance.net/gallery/24796463/ZATTIX/moodboard?moduleId=163656379"
+          <nav class="col-6 col-sm-12 text-center text-md-left col-md-6 col-xl-2 mx-2 mx-sm-auto">
+            <h6 class="footer-nav-title main-color-pink font-weight-bold pb-1">
+              NAVIGATION
+            </h6>
+            <ul class="p-0 m-0 footer-links main-color-gray">
+              <li class="cpointer">Home</li>
+              <li class="cpointer">Sign In</li>
+              <li class="cpointer">Sign Up</li>
+              <li class="cpointer">Terms & Conditions</li>
+              <li class="cpointer">FAQ</li>
+              <li class="cpointer">Help</li>
+            </ul>
+          </nav>
+          <nav class="d-none d-md-block col-12 col-md-6 col-xl-3">
+            <h6
+              class="footer-nav-title main-color-pink font-weight-bold pb-1 text-center"
             >
-              Mohammed Awad</a
-            >. Implemented by Sergio Obolevich.</span
-          >
+              CATEGORIES
+            </h6>
+            <ul class="p-0 m-0 footer-links main-color-gray float-left">
+              <li class="cpointer">Cellphones</li>
+              <li class="cpointer">Desktop PC</li>
+              <li class="cpointer">Cameras</li>
+              <li class="cpointer">Automotives</li>
+              <li class="cpointer">Fashion</li>
+              <li class="cpointer">More</li>
+            </ul>
+            <ul class="p-0 m-0 footer-links main-color-gray float-right">
+              <li class="cpointer">Cellphones</li>
+              <li class="cpointer">Desktop PC</li>
+              <li class="cpointer">Cameras</li>
+              <li class="cpointer">Automotives</li>
+              <li class="cpointer">Fashion</li>
+              <li class="cpointer">More</li>
+            </ul>
+          </nav>
+          <div class="col-4 col-sm-12 col-xl-3 text-center w-100 mt-sm-4 mt-xl-0 mx-1 mx-sm-auto">
+            <div
+              class="mb-1 my-sm-3 w-25 d-sm-inline-block d-xl-flex text-center mx-sm-auto mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
+            >
+              <span class="main-color-pink font-weight-bold mr-3 pl-3 pl-sm-0">COUNTRY</span>
+              <button type="submit" class="footer-btn btn border">Switzerland</button>
+            </div>
+            <div
+              class="mb-1 my-sm-3 w-25 d-sm-inline-block d-xl-flex text-center mx-sm-auto mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
+            >
+              <span class="main-color-pink font-weight-bold mr-3 pl-3 pl-sm-0">LANGUAGE</span>
+              <button type="submit" class="footer-btn btn border">English</button>
+            </div>
+            <div
+              class="mb-1 my-sm-3 w-25 d-sm-inline-block d-xl-flex text-center mx-sm-auto mx-md-2 mx-xl-0 ml-xl-5 text-xl-right"
+            >
+              <span class="main-color-pink font-weight-bold mr-3 pl-3 pl-sm-0">CURRENCY</span>
+              <button type="submit" class="footer-btn btn border text-nowrap">US Dollar</button>
+            </div>
+          </div>
         </div>
-        <div
-          class="footer-social-icons d-none d-lg-flex col-lg-3 justify-content-around pt-1"
-        >
-          <svg
-            width="26"
-            height="26"
-            viewBox="0 0 1000 1000"
-            xmlns="http://www.w3.org/2000/svg"
+        <div class="row border-top pt-2">
+          <div class="copyright col-12 col-lg-9 pt-1 text-center text-lg-left">
+            <span class="small main-color-black"
+              >Copyright 2020. Design copied from
+              <a
+                href="https://www.behance.net/gallery/24796463/ZATTIX/moodboard?moduleId=163656379"
+              >
+                Mohammed Awad</a
+              >. Implemented by Sergio Obolevich.</span
+            >
+          </div>
+          <div
+            class="footer-social-icons d-none d-lg-flex col-lg-3 justify-content-around pt-1"
           >
-            <path
-              d="M 503 25C 631 25 647 26 697 28C 748 30 782 38 812 50C 843 62 870 78 896 105C 922 131 938 157 950 188C 962 218 970 253 972 303C 975 353 975 369 975 498C 975 626 975 642 972 693C 970 743 962 777 950 807C 938 838 922 865 896 891C 870 917 843 934 812 946C 782 957 748 965 698 968C 647 970 631 970 503 970C 374 970 358 970 308 968C 257 965 223 957 193 946C 162 934 136 917 109 891C 83 865 67 838 55 807C 43 777 35 743 33 693C 31 642 30 626 30 498C 30 369 31 353 33 303C 35 253 43 218 55 188C 67 157 83 131 109 105C 136 78 162 62 193 50C 223 38 258 30 308 28C 358 26 374 25 503 25C 503 25 503 25 503 25M 460 110C 372 110 355 111 312 113C 266 115 241 123 224 129C 202 138 186 148 170 165C 153 181 143 197 134 219C 128 236 120 261 118 307C 116 356 115 371 115 498C 115 624 116 639 118 689C 120 735 128 760 134 776C 143 798 153 814 170 831C 186 847 202 857 224 866C 241 872 266 880 312 882C 362 885 377 885 503 885C 629 885 644 885 694 882C 740 880 765 873 781 866C 804 857 819 847 836 831C 852 814 863 798 871 776C 878 760 885 735 887 689C 890 639 890 624 890 498C 890 372 890 357 887 307C 885 261 878 236 871 219C 863 197 852 181 836 165C 819 148 804 138 781 129C 765 123 740 115 694 113C 644 111 629 110 503 110C 487 110 473 110 460 110C 460 110 460 110 460 110M 755 189C 786 189 812 214 812 246C 812 277 786 302 755 302C 724 302 698 277 698 246C 698 214 724 189 755 189C 755 189 755 189 755 189M 503 255C 637 255 745 364 745 498C 745 632 637 740 503 740C 369 740 260 632 260 498C 260 364 369 255 503 255C 503 255 503 255 503 255M 345 498C 345 585 416 655 503 655C 590 655 660 585 660 498C 660 411 590 340 503 340C 416 340 345 411 345 498C 345 498 345 498 345 498"
-            />
-          </svg>
-          <svg
-            width="26"
-            height="26"
-            viewBox="0 0 1000 1000"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M 342 828C 252 828 163 802 88 754C 175 764 265 739 333 685C 266 685 203 640 181 577C 188 566 232 579 253 568C 178 554 119 482 121 406C 140 412 170 426 196 424C 124 379 100 276 144 204C 227 306 354 371 485 376C 474 330 484 278 513 240C 564 169 672 152 741 204C 774 247 827 205 865 189C 873 206 830 262 799 277C 829 274 859 266 888 254C 886 271 839 317 811 337C 816 452 777 568 705 658C 619 768 480 830 342 828"
-            />
-          </svg>
-          <svg
-            width="26"
-            height="26"
-            viewBox="0 0 1000 1000"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M 1000 487C 1000 756 780 975 509 975C 428 975 347 955 276 917C 276 917 17 999 17 999C 16 1000 14 1000 13 1000C 10 1000 6 999 4 996C 0 993 -1 987 1 983C 1 983 85 734 85 734C 41 660 18 574 18 487C 18 219 238 0 509 0C 780 0 1000 219 1000 487C 1000 487 1000 487 1000 487M 120 487C 120 569 145 647 194 714C 196 717 197 722 196 726C 196 726 154 849 154 849C 154 849 284 808 284 808C 285 808 286 807 288 807C 290 807 293 808 295 810C 358 851 432 873 509 873C 723 873 898 700 898 487C 898 275 723 102 509 102C 294 102 120 275 120 487C 120 487 120 487 120 487M 406 280C 420 314 435 349 449 384C 451 409 429 426 416 444C 401 462 435 481 444 498C 479 537 521 572 572 590C 589 574 602 553 619 535C 640 520 665 540 685 548C 703 557 722 566 740 575C 768 581 768 614 762 636C 756 678 716 705 679 717C 622 731 564 708 512 687C 416 645 344 563 290 476C 260 425 251 359 281 306C 294 282 317 266 344 263C 352 261 361 259 370 259C 385 259 399 264 406 280C 406 280 406 280 406 280"
-            />
-          </svg>
-          <svg
-            width="26"
-            height="26"
-            viewBox="0 0 1000 1000"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M 690 1000C 690 1000 534 1000 534 1000C 534 1000 534 613 534 613C 534 613 404 613 404 613C 404 613 404 462 404 462C 404 462 534 462 534 462C 534 462 534 350 534 350C 534 221 613 151 729 151C 784 151 831 155 845 157C 845 157 845 292 845 292C 845 292 765 292 765 292C 702 292 690 322 690 365C 690 365 690 462 690 462C 690 462 840 462 840 462C 840 462 820 613 820 613C 820 613 690 613 690 613C 690 613 690 1000 690 1000"
-            />
-          </svg>
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 1000 1000"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M 503 25C 631 25 647 26 697 28C 748 30 782 38 812 50C 843 62 870 78 896 105C 922 131 938 157 950 188C 962 218 970 253 972 303C 975 353 975 369 975 498C 975 626 975 642 972 693C 970 743 962 777 950 807C 938 838 922 865 896 891C 870 917 843 934 812 946C 782 957 748 965 698 968C 647 970 631 970 503 970C 374 970 358 970 308 968C 257 965 223 957 193 946C 162 934 136 917 109 891C 83 865 67 838 55 807C 43 777 35 743 33 693C 31 642 30 626 30 498C 30 369 31 353 33 303C 35 253 43 218 55 188C 67 157 83 131 109 105C 136 78 162 62 193 50C 223 38 258 30 308 28C 358 26 374 25 503 25C 503 25 503 25 503 25M 460 110C 372 110 355 111 312 113C 266 115 241 123 224 129C 202 138 186 148 170 165C 153 181 143 197 134 219C 128 236 120 261 118 307C 116 356 115 371 115 498C 115 624 116 639 118 689C 120 735 128 760 134 776C 143 798 153 814 170 831C 186 847 202 857 224 866C 241 872 266 880 312 882C 362 885 377 885 503 885C 629 885 644 885 694 882C 740 880 765 873 781 866C 804 857 819 847 836 831C 852 814 863 798 871 776C 878 760 885 735 887 689C 890 639 890 624 890 498C 890 372 890 357 887 307C 885 261 878 236 871 219C 863 197 852 181 836 165C 819 148 804 138 781 129C 765 123 740 115 694 113C 644 111 629 110 503 110C 487 110 473 110 460 110C 460 110 460 110 460 110M 755 189C 786 189 812 214 812 246C 812 277 786 302 755 302C 724 302 698 277 698 246C 698 214 724 189 755 189C 755 189 755 189 755 189M 503 255C 637 255 745 364 745 498C 745 632 637 740 503 740C 369 740 260 632 260 498C 260 364 369 255 503 255C 503 255 503 255 503 255M 345 498C 345 585 416 655 503 655C 590 655 660 585 660 498C 660 411 590 340 503 340C 416 340 345 411 345 498C 345 498 345 498 345 498"
+              />
+            </svg>
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 1000 1000"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M 342 828C 252 828 163 802 88 754C 175 764 265 739 333 685C 266 685 203 640 181 577C 188 566 232 579 253 568C 178 554 119 482 121 406C 140 412 170 426 196 424C 124 379 100 276 144 204C 227 306 354 371 485 376C 474 330 484 278 513 240C 564 169 672 152 741 204C 774 247 827 205 865 189C 873 206 830 262 799 277C 829 274 859 266 888 254C 886 271 839 317 811 337C 816 452 777 568 705 658C 619 768 480 830 342 828"
+              />
+            </svg>
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 1000 1000"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M 1000 487C 1000 756 780 975 509 975C 428 975 347 955 276 917C 276 917 17 999 17 999C 16 1000 14 1000 13 1000C 10 1000 6 999 4 996C 0 993 -1 987 1 983C 1 983 85 734 85 734C 41 660 18 574 18 487C 18 219 238 0 509 0C 780 0 1000 219 1000 487C 1000 487 1000 487 1000 487M 120 487C 120 569 145 647 194 714C 196 717 197 722 196 726C 196 726 154 849 154 849C 154 849 284 808 284 808C 285 808 286 807 288 807C 290 807 293 808 295 810C 358 851 432 873 509 873C 723 873 898 700 898 487C 898 275 723 102 509 102C 294 102 120 275 120 487C 120 487 120 487 120 487M 406 280C 420 314 435 349 449 384C 451 409 429 426 416 444C 401 462 435 481 444 498C 479 537 521 572 572 590C 589 574 602 553 619 535C 640 520 665 540 685 548C 703 557 722 566 740 575C 768 581 768 614 762 636C 756 678 716 705 679 717C 622 731 564 708 512 687C 416 645 344 563 290 476C 260 425 251 359 281 306C 294 282 317 266 344 263C 352 261 361 259 370 259C 385 259 399 264 406 280C 406 280 406 280 406 280"
+              />
+            </svg>
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 1000 1000"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M 690 1000C 690 1000 534 1000 534 1000C 534 1000 534 613 534 613C 534 613 404 613 404 613C 404 613 404 462 404 462C 404 462 534 462 534 462C 534 462 534 350 534 350C 534 221 613 151 729 151C 784 151 831 155 845 157C 845 157 845 292 845 292C 845 292 765 292 765 292C 702 292 690 322 690 365C 690 365 690 462 690 462C 690 462 840 462 840 462C 840 462 820 613 820 613C 820 613 690 613 690 613C 690 613 690 1000 690 1000"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
