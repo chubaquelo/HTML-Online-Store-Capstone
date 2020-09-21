@@ -3,7 +3,10 @@
 header {
     background: url("/img/bg.png");
     height: 60px;
-    min-width: 360px;
+    /* min-width: 360px; */
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 /* GLOBAL FONTS */
@@ -53,13 +56,36 @@ header {
 }
 
 .bi-envelope-fill {
-    min-width: 1em;
-    min-height: 1em;
+    min-width: 2em;
+    min-height: 2em;
 }
 
 .mobile-menu-icon {
     min-width: 3em;
     min-height: 3em;
+}
+
+.hot-arrow-left {
+    padding: 5px 10px;
+    background-color: rgba(128, 128, 128, 0.404);
+    bottom: 0;
+    right: 36px;
+}
+
+.hot-arrow-right {
+    padding: 5px 10px;
+    background-color: rgba(128, 128, 128, 0.404);
+    bottom: 0;
+    right: 0;
+}
+
+.btn-price {
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-purchase {
+    border-radius: 0 5px 5px 0;
+    border-left: 1px solid #A33F4E;
 }
 
 /* HEADER CLASSES */
