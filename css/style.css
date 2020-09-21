@@ -45,6 +45,14 @@ header {
     color: #888888;
 }
 
+.bg-color-gray {
+    background-color: #888888;
+}
+
+.bg-color-light-gray {
+    background-color: #efefef;
+}
+
 .main-color-black{ 
     color: #383838;
 }
@@ -110,6 +118,28 @@ header {
     background-size: 25%;
     background-position-x: 1em;
     background-position-y: 1em;
+}
+
+/* PRODUCT CATEGORIES CARROUSEL CLASSES */
+
+.carrousel-left {
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.carrousel-left:hover {
+    background-color: #cecece;
+}
+
+.carrousel-right {
+    right: 0;
+    top: 0;
+    z-index: 98;
+}
+
+.carrousel-right:hover {
+    background-color: #cecece;
 }
 
 /* MEDIA QUERIES */
