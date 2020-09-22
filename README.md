@@ -3,12 +3,12 @@
 # HTML Online Store Capstone - Project
 This project is for Practicing HTML Layout designing using Bootstrap properties, and media queries for responsive.
 
-This is a capstone project for Microverse. I used bootstrap, css, HTML.
+This is a capstone project for Microverse. I used bootstrap, CSS, HTML.
 No javascript implemented. No real functionalities on it.
 
 Is an online store layout with 2 internal pages on it: main and search results.
 
-![alt text](https://i.imgur.com/ "Preview Img")
+![alt text](https://i.imgur.com/OEFByNJ.jpg "Preview Img")
 
 ## Built With
 BOOTSTRAP - HTML + CSS
